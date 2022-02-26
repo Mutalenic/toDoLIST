@@ -6,35 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
     rel="stylesheet"
-    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
     crossorigin="anonymous"
+    referrerpolicy="no-referrer"
   />
     <title>TO DO LIST</title>
   </head>
-  <body>
-    <div class="">
-      <div class="">
-        <div class="">
-          <h3 class="">Today's To Do</h3>
+  <body><div class="container">
+        <div class="hcontainer">
+          <h3 class="header">Today's To Do</h3>
           <i class="fas fa-sync-alt"></i>
         </div>
         <form>
-          <div class="">
+          <div class="inputContainer">
             <input
-              class="add-todo"
+              class="addtask"
               type="text"
               placeholder="Add to your list..."
             />
             <button type="submit" aria-label="Add new task">
-              <i class="fa-regular fa-arrow-turn-down-left"></i>
-            </button>
+              <i class="fa fa-plus-circle"></i>
+            </button>           
           </div>
         </form>
-        <ul class="list"></ul>
+        <ul class="addList"></ul>
 
         <button class="clear" type="button">Clear To Do list completed</button>
       </div>
-    </div>
+    
   </body>
 </html>
