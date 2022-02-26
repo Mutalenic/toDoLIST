@@ -13,7 +13,7 @@ In this project, I built a basic website with simple HTML list of To Do tasks.Th
 
 
 ## Demo Link
-[live link](https://mutalenic.github.io//)
+[live link](https://mutalenic.github.io/toDoLIST/)
 
 ## Authors
 
@@ -23,7 +23,7 @@ In this project, I built a basic website with simple HTML list of To Do tasks.Th
 
 ## Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [https://mutalenic.github.io/]
+Feel free to check the [https://github.com/Mutalenic/toDoLIST/issues]
 
 ## Getting Started
 
