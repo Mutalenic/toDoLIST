@@ -5,15 +5,6 @@
   list-style: none;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: solid 1px;
-  margin: 10px;
-}
-
 .hcontainer {
   display: flex;
   flex-direction: row;
@@ -37,32 +28,28 @@
 .tdl-items {
   display: flex;
   flex-direction: row;
-  gap: 16px;
-  gap: 7px;
-  padding-left: -24px;
   justify-content: space-between;
-  gap: 25px;
-  padding-top: 20px;
-  padding-left: -62px;
-  padding: 20px 20px 10px -16px;
+  gap: 33px;
+  margin-left: 0;
+  padding-left: -9px;
+  padding-left: -33px;
 }
 
 .fa-ellipsis-vertical {
-  color:black
+  color: black;
 }
 
 .addtask {
   padding: 18px 276px 17px 14px;
   border-right: none;
   border-left: none;
+  border-bottom: none;
+  border-top: solid 0.5px gray;
 }
 
-hr {
-  width: 500px;
-}
-
- i {
+i {
   padding: 20px;
+  cursor: pointer;
 }
 
 .clear {
@@ -80,6 +67,10 @@ hr {
 .listItem {
   display: flex;
   flex-direction: row;
+  margin-left: -20px;
+  padding-left: 28px;
+  padding-top: 27px;
+  border-top: 1px solid gray;
 }
 
 #delete {
