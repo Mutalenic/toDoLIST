@@ -1,3 +1,89 @@
-#test {
-  color: red;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.hcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 284px;
+  border: none;
+  padding: 10px;
+}
+
+.container {
+  height: auto;
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 100px;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.tdl-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 33px;
+  margin-left: 0;
+  padding-left: -9px;
+  padding-left: -33px;
+}
+
+.fa-ellipsis-vertical {
+  color: black;
+}
+
+.addtask {
+  padding: 18px 276px 17px 14px;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  border-top: solid 0.5px gray;
+}
+
+i {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.clear {
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  padding: 20px 0;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: row;
+  margin-left: -20px;
+  padding-left: 28px;
+  padding-top: 27px;
+  border-top: 1px solid gray;
+}
+
+#delete {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 287px;
+  padding-right: -12px;
+}
+
+.addList {
+  padding-left: 20px;
+}
+
+#enterIcon {
+  padding-left: 20px;
 }
